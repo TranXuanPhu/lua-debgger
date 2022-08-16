@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Design">
+      <UniqueIdentifier>{9d65cacc-d5e3-4c2e-ae27-8505021b3ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Library">
+      <UniqueIdentifier>{48b4a083-b377-476d-a900-28477065d122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{30bde7cd-273b-424b-9fd2-88e6eea56d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DebuggerLua.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggersDlg.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Log.cpp">
+      <Filter>_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Utils.cpp">
+      <Filter>_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\WindowProcess.cpp">
+      <Filter>_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\ApiLua.cpp">
+      <Filter>_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Library\Hook.cpp">
+      <Filter>_Library</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\GameInfo.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CallFuntionDlg.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportScript.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DebuggerLua.def">
+      <Filter>Main</Filter>
+    </None>
+    <None Include="res\DebuggerLua.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebuggersDlg.h">
+      <Filter>Design</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Log.h">
+      <Filter>_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Utils.h">
+      <Filter>_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\WindowProcess.h">
+      <Filter>_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\global.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggerLua.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\ApiLua.h">
+      <Filter>_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Library\Hook.h">
+      <Filter>_Library</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\GameInfo.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CallFuntionDlg.h">
+      <Filter>Design</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportScript.h">
+      <Filter>Design</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DebuggerLua.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
