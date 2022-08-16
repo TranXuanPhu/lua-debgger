@@ -1,15 +1,15 @@
 # lua-debgger
 tool debgger lua in game unity3d
 
-How to build
+# How to build
 - build  visual studio 2017 or 2019
 
-TODO LIST
+# TODO LIST
 - handle hook memory
 - inject library dll in game
 - read,write table field function... in lua
 - read,load file .lua in game
-
+- handle share memory
 
 game test : https://thiennu2.zing.vn
 download vesion PC
